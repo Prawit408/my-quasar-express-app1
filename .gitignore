@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dependency directories
 node_modules/
 backend/node_modules/
@@ -16,3 +17,18 @@ frontend/dist/
 
 # OS files
 .DS_Store
+=======
+# Dependencies
+node_modules/
+
+# Secret files 
+.env
+frontend/.env
+
+# Logs (ตามเกณฑ์ B2/B4)
+backend/logs/
+*.log
+
+# Build outputs
+frontend/dist/
+>>>>>>> feature/frontend-axios-integration
