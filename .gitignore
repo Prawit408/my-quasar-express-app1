@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Secret files (สำคัญมากตามเกณฑ์ B3/B4)
+.env
+frontend/.env
+
+# Logs (ตามเกณฑ์ B2/B4)
+backend/logs/
+*.log
+
+# Build outputs
+frontend/dist/
