@@ -11,7 +11,7 @@ WORKDIR /app
 COPY --from=builder /app /app
 RUN mkdir -p logs
 
-# เพิ่ม Healthcheck (เช็ค /api/demo)
+# Healthcheck ตรวจสอบ API (ตามโจทย์)
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
   CMD wget --quiet --tries=1 --spider http://localhost:3000/api/demo || exit 1
 
